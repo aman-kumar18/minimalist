@@ -20,7 +20,8 @@
 				text-align:center;
 				color:white;
 				margin:0;
-				padding-top:17px;
+				padding-top:16px;
+				font-size:16px;
 		}
 		#namearea{
 				width:1370px;
@@ -253,7 +254,7 @@
 		}
 		#details1{
 				position:absolute;
-				top:-40;
+				top:-15;
 				width:500px;
 				height:50px;
 				background:#e5e5e5;
@@ -268,10 +269,12 @@
 				color:black;
 				margin:0;
 				padding-top:9px;
+				font-family:"poppins" , sans-serif;
+				font-weight:400px;
 		}
 		#details2{
 				position:absolute;
-				top:100;
+				top:120;
 				width:800px;
 				height:40px;
 				background:#e5e5e5;
@@ -287,11 +290,12 @@
 				margin:0;
 				padding-top:9px;
 				font-size:22px;
-  				font-family: 'Nunito', sans-serif
+  				font-family: 'Nunito', sans-serif;
+				font-weight:normal;
 		}
 		#details3{
 				position:absolute;
-				top:150;
+				top:160;
 				width:200px;
 				height:30px;
 				background:black;
@@ -300,17 +304,19 @@
 				margin-left:70px;
 				margin-right:0px;
 				float:left;
+				border-radius:5px;
 				
 		}
 		#details3 p{
-				color:white;
+				color:#e7e3e7;
 				margin:0;
 				padding-top:6px;
 				text-align:center;
+				font-weight:normal;
 		}
 		#details4{
 				position:absolute;
-				top:150;
+				top:160;
 				left:300;
 				width:60px;
 				height:30px;
@@ -320,13 +326,17 @@
 				margin-left:20px;
 				margin-right:1020px;
 				float:left;
+				border-radius:5px;
 				
 		}
 		#details4 p{
-				color:white;
+				color:#e7e3e7;
 				margin:0;
 				padding-top:6px;
 				text-align:center;
+		}
+		#details4 a {
+				text-decoration:none;
 		}
 		#fourth{
 				background:white;
@@ -486,7 +496,6 @@
 				margin-left:125px;
 				margin-right:0px;
 				float:left;
-				border:solid 1px #f2f2f2;
 		}
 		#fifrec2{
 				background:white;
@@ -497,7 +506,6 @@
 				margin-left:25px;
 				margin-right:25px;
 				float:left;
-				border:solid 1px #f2f2f2;
 		}
 		#fifrec3{
 				background:white;
@@ -508,7 +516,6 @@
 				margin-left:0px;
 				margin-right:125px;
 				float:left;
-				border:solid 1px #f2f2f2;
 		}
 		#fifrec4{
 				background:white;
@@ -519,7 +526,6 @@
 				margin-left:125px;
 				margin-right:0px;
 				float:left;
-				border:solid 1px #f2f2f2;
 		}
 		#fifrec5{
 				background:white;
@@ -530,7 +536,6 @@
 				margin-left:25px;
 				margin-right:25px;
 				float:left;
-				border:solid 1px #f2f2f2;
 		}
 		#fifrec6{
 				background:white;
@@ -541,7 +546,6 @@
 				margin-left:0px;
 				margin-right:125px;
 				float:left;
-				border:solid 1px #f2f2f2;
 		}
 		.fificon{
 				background:white;
@@ -616,7 +620,7 @@
 		#sixth{
 				background:white;
 				width:1370px;
-				height:400px;
+				height:375px;
 				float:left;
 
 		}
@@ -951,8 +955,7 @@
 	</head>
 		<body>
 		<div id = "mainarea">
-			<div id = "header">
-                		<marquee direction = "right" scrollamount="20" behaviour="scroll"><h4>Free Moisturizer with Every Order!</h4></marquee>
+			<div id = "header"><h4>Free Moisturizer with Every Order!</h4>
 			</div>
 			<div id = "namearea">
 				<div id = "nametag">
@@ -973,13 +976,15 @@
 				<div id = "t7box"><h4>Track Order</h4>
 				</div>
 				<div class = "iconbox bg1">
-				<img src = "star.png"/>
+				<a href = "#">
+				<img src = "star.png"/></a>
 				</div>
 				<div class = "iconbox bg2">
 				<img src = "icon.png"/>
 				</div>
 				<div class = "iconbox bg3">
-				<img src = "signinbg.png"/>
+				<a href ="login.html">
+				<img src = "signinbg.png"/></a>
 				</div>
 				<div id = "liconbox">
 				<img src = "add-to-cart.png"/>
@@ -988,8 +993,7 @@
 			<div id = "third">
 				<img src = "starbanner.png"/>
 					<div id = "details1">
-						<h1>
-Minimalist Trust Circle</h1>
+						<h1>Minimalist Trust Circle</h1>
 					</div>
 					<div id = "details2">
 						<h4>Earn MCash with every purchase and redeem them for discounts!</h4>
@@ -998,7 +1002,7 @@ Minimalist Trust Circle</h1>
 					<p>Sign Up and Get 50 MCash<p>
 					</div>
 					<div id = "details4">
-					<p>Sign in<p>
+					<a href = "login.html"><p>Sign in<p></a>
 					</div>
 			</div>
 			<div id = "fourth">
